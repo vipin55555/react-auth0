@@ -7,7 +7,7 @@ It's simple react using [AUTH0](https://auth0.com/) i.e. handle login, logout, r
 # Reference
 Refer this awesome [article](https://auth0.com/blog/complete-guide-to-react-user-authentication/?utm_source=YouTube&utm_campaign=DevRel&utm_medium=link_placement) by [Dan arias](https://auth0.com/blog/authors/dan-arias/)
 
-TO handle Authorization with react router v6, [refer](https://auth0.com/developers/hub/code-samples/spa/react-typescript/basic-authentication-react-router-6) 
+To handle Authorization with react router v6, refer [this](https://auth0.com/developers/hub/code-samples/spa/react-typescript/basic-authentication-react-router-6) 
 ## Available Scripts
 
 In the project directory, you can run:

@@ -9,4 +9,4 @@ const PrivateTest2 = () => {
     </div>)
 }
 
-export default PrivateTest2;
+export  {PrivateTest2};

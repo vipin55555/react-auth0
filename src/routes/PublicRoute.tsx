@@ -1,6 +1,9 @@
-import { Navigate } from "react-router"
-import { IRouteProps } from "./AppRoute"
+import { Navigate, RouteProps } from "react-router"
 
-export const PublicRoute = (props: IRouteProps) => {
-    return <>props.isAuthorized ? <Navigate to="/privateTest1" /> : props.children</>;
+export interface IPublicRouteProps extends RouteProps {
+    isAuthorized?: boolean;
+}
+export const PublicRoute = (props: IPublicRouteProps) => {
+    
+    return <>{props.isAuthorized ? <Navigate to="/privateTest1" /> : <div>{props.children}</div>}</>;
 }

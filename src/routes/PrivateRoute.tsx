@@ -1,6 +1,11 @@
-import { Navigate } from "react-router-dom"
-import { IRouteProps } from "./AppRoute"
+import { withAuthenticationRequired } from "@auth0/auth0-react"
+import { ComponentType } from "react";
 
-export const PrivateRoute = (props: IRouteProps) => {
-    return <>{props.isAuthorized ? props.children : <Navigate to="/publicTest" />}</>;
+export interface IPrivateRouteProps {
+    component: ComponentType;
+}
+
+export const PrivateRoute = (props: IPrivateRouteProps) => {
+    const Component = withAuthenticationRequired(props.component, { onRedirecting: () => <div>Loading</div> })
+    return <Component />
 }

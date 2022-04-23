@@ -2,8 +2,10 @@ import { useEffect } from "react"
 import i18n from 'i18next'
 import { useTranslation } from "react-i18next";
 import { ServiceInjector, SharedService } from "../../services";
+import { useAuth0 } from "@auth0/auth0-react";
 
 const Header = (props: any) => {
+    const { logout } = useAuth0();
     const { t } = useTranslation();
     const sharedService = ServiceInjector.get(SharedService) as SharedService;
 
@@ -23,6 +25,10 @@ const Header = (props: any) => {
                 <option value="en">English</option>
                 <option value="hin">Hindi</option>
             </select>
+            <br />
+            <h3>Click below to logout</h3>
+            <button onClick={() =>logout({returnTo: window.location.origin })}
+            >Logout</button>
         </div>
     )
 }

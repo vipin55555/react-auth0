@@ -1,14 +1,13 @@
-# React type script starter
+# React Auth0
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-It covers basic requirement needed for react typescript project such as:
-- Internationalization using [react-i18next](https://github.com/i18next/react-i18next)
-- Dependency Injection using [injection-js](https://github.com/mgechev/injection-js)
-- Routing using [react-router](https://github.com/remix-run/react-router)
-    - Lazy loading
-    - Nested routing
+It's simple react using [AUTH0](https://auth0.com/) i.e. handle login, logout, redirection,etc. with the help of Auth0
 
+# Reference
+Refer this awesome [article](https://auth0.com/blog/complete-guide-to-react-user-authentication/?utm_source=YouTube&utm_campaign=DevRel&utm_medium=link_placement) by [Dan arias](https://auth0.com/blog/authors/dan-arias/)
+
+TO handle Authorization with react router v6, [refer](https://auth0.com/developers/hub/code-samples/spa/react-typescript/basic-authentication-react-router-6) 
 ## Available Scripts
 
 In the project directory, you can run:

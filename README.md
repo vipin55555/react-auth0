@@ -1,6 +1,6 @@
 # React Auth0
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was created with [Create React App](https://github.com/facebook/create-react-app).
 
 It's simple react project using [Auth0 Authenticate API](https://auth0.com/docs/api/authentication) i.e. handle login, logout, redirection,etc. with the help of Auth0
 

@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-It's simple react using [AUTH0](https://auth0.com/) i.e. handle login, logout, redirection,etc. with the help of Auth0
+It's simple react project using [Auth0 Authenticate API](https://auth0.com/docs/api/authentication) i.e. handle login, logout, redirection,etc. with the help of Auth0
 
 # Reference
 Refer this awesome [article](https://auth0.com/blog/complete-guide-to-react-user-authentication/?utm_source=YouTube&utm_campaign=DevRel&utm_medium=link_placement) by [Dan arias](https://auth0.com/blog/authors/dan-arias/)

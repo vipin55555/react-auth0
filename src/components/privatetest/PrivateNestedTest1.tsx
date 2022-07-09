@@ -1,6 +1,9 @@
+import { useTranslation } from "react-i18next";
+
 const PrivateNestedTest1 = () => {
+    const { t } = useTranslation();
     return (<div>
-        <h1>This is private Nested Test1 component</h1>
+        <h1>{t('label-private-nested-one-component')}</h1>
     </div>)
 }
 
